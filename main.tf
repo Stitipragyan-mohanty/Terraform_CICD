@@ -1,6 +1,6 @@
 resource "aws_subnet" "pubsub" {
   vpc_id                  = "vpc-071db49eccb9d4618"
-  cidr_block              = "172.31.128.0/17"
+  cidr_block              = "172.31.192.0/18"
   map_public_ip_on_launch = true
   availability_zone       = "us-east-1a"
 
