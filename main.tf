@@ -10,7 +10,7 @@ resource "aws_subnet" "pubsub" {
 }
 
 resource "aws_instance" "dev" {
-    ami = "ami-0c614dee691cbbf37"
+    ami = "ami-0a897ba00eaed7398"
     instance_type = "t2.micro"
     subnet_id = aws_subnet.pubsub.id
     tags = {
